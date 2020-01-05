@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Here are the list of items</h1>
+    {% for item in items %}
+    <!-- this is the other part of the html page that the people dont want to talk about so that they do not sound racist -->
+        {{ item }}
+    <!-- for all of you that like look at at the ending of what somebody is writing well today is not going to be a good day for those people -->
+    <!-- lack without communication is the path to an introspective lifestyle -->
+    {% endfor %}
+    <div class="col-lg-3 col-md-6 mb-4">
+
+      <!--Card-->
+      <div class="card">
+
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="{% static 'img/14.jpg' %}" class="card-img-top"
+            alt="">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+        <!--Card image-->
+
+        <!--Card content-->
+        <div class="card-body text-center">
+          <!--Category & Title-->
+          <a href="" class="grey-text">
+            <h5>Sport wear</h5>
+          </a>
+          <h5>
+            <strong>
+              <a href="" class="dark-grey-text">Grey blouse
+                <span class="badge badge-pill primary-color">bestseller</span>
+              </a>
+            </strong>
+          </h5>
+
+          <h4 class="font-weight-bold blue-text">
+            <strong>99$</strong>
+          </h4>
+
+        </div>
+        <!--Card content-->
+
+      </div>
+      <!--Card-->
+
+    </div>
+</body>
+</html>
